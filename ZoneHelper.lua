@@ -18,7 +18,7 @@ ZoneHelper.CodeEnumContinents = {
   D_Protogames = 90,
   D_VetProtogames = 90,
   --SoloDungeons
-  SD_SimCore = -1,
+  SD_OmniCore = 80,
   -- Adventures
   A_MalgraveTrail = 17,
   A_Crimelords = 26,
@@ -41,7 +41,7 @@ ZoneHelper.CodeEnumContinents = {
   --Shiphands
   SH_FragmentZero = 83,
   SH_OutpostM13 = -1,
-  SH_Infestation = -1,
+  SH_Infestation = 18,
   SH_RageLogic = -1,
   SH_SpaceMadness = -1,
   SH_DeepSpaceExploration = -1,
@@ -61,12 +61,12 @@ ZoneHelper.CodeEnumZones = {
   D_Protogames = -1,
   D_VetProtogames = -1,
   --SoloDungeons
-  SD_SimCore = -1,
+  SD_OmniCore = 214,
   -- Adventures
   A_MalgraveTrail = 24,
   A_Crimelords = -1,
   A_Wilds = -1,
-  A_Seige = -1,
+  A_Seige = 23,
   A_Riot = -1,
   A_Bay = 307,
   -- Outdoors
@@ -102,7 +102,7 @@ ZoneHelper.CodeEnumZones = {
   --Shiphands
   SH_FragmentZero = -1,
   SH_OutpostM13 = -1,
-  SH_Infestation = -1,
+  SH_Infestation = 25,
   SH_RageLogic = -1,
   SH_SpaceMadness = -1,
   SH_DeepSpaceExploration = -1,
