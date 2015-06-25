@@ -543,7 +543,7 @@ ZoneHelper.ContinentInfo = {
   },
   [41] = {
     name = "RandyLand",
-    commonName = "RandyLand",
+    commonName = "Randyland",
     zones = { 77 },
     instance = false,
     shiphand = false,
@@ -552,106 +552,107 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [42] = {
     name = "Expedition: Graylight Grapplefest",
-    commonName = "",
-    zones = {},
+    commonName = "Expedition: Graylight Grapplefest",
+    zones = { 79 },
     instance = false,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [43] = {
     name = "Expedition: Kel Voreth Underforge",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Expedition: Kel Voreth Underforge",
+    zones = { 80 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [44] = {
     name = "Expedition: The Melting Pot",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Expedition: The Melting Pot",
+    zones = { 81 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [45] = {
     name = "Expedition: Mayday",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Expedition: Mayday",
+    zones = { 82 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [46] = {
     name = "Expedition: Creepy Cave",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Expedition: Creepy Cave",
+    zones = { 83 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [47] = {
     name = "Expedition: Spider Tomb",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Expedition: Spider Tomb",
+    zones = { 84 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [48] = {
     name = "Sanctuary of the Swordmaiden",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Sanctuary of the Swordmaiden",
+    shortName = "SSM"
+    zones = { 85 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
-    dungeon = false,
+    dungeon = true,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [49] = {
     name = "Coralus",
@@ -664,154 +665,154 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [50] = {
     name = "Shiphand: Void Hunter",
-    commonName = "",
-    zones = {},
-    instance = false,
-    shiphand = false,
+    commonName = "Shiphand: Void Hunter",
+    zones = { 90, 91, 92 },
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [51] = {
     name = "Shiphand: Rage Logic",
-    commonName = "",
-    zones = {},
-    instance = false,
-    shiphand = false,
+    commonName = "Shiphand: Rage Logic",
+    zones = { 93, 94, 95, 96, 97 },
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [52] = {
     name = "Datascape",
     commonName = "The Datascape",
     zones = { 98, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
-    raid = false,
-    outdoors = true,
-    size = 40
+    raid = true,
+    outdoors = false,
+    size = 20
   },
   [53] = {
     name = "Halls of the Bloodsworn",
     commonName = "Halls of the Bloodsworn",
     zones = { 99 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
-    pvp = false,
+    pvp = true,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 30
   },
   [54] = {
     name = "PvP: Warplot Battleground",
     commonName = "Warplot Battleground",
     zones = { 100 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
-    pvp = false,
+    pvp = true,
     adventure = false,
     dungeon = false,
     raid = false,
     outdoors = true,
-    size = 40
+    size = 80
   },
   [55] = {
     name = "PvP: Warplot Sky Map",
     commonName = "Warplot Sky Map",
     zones = { 101 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
-    pvp = false,
+    pvp = true,
     adventure = false,
     dungeon = false,
     raid = false,
     outdoors = true,
     size = 40
   },
-  [56] = {
+  [56] = {   -- Not in Game
     name = "PvP: Cannon",
     commonName = "PvP: Cannon",
     zones = { 102 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
-    pvp = false,
+    pvp = true,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
+    outdoors = false,
     size = 40
   },
   [57] = {
     name = "PvP: Sabotage",
     commonName = "Daggerstone Pass",
     zones = { 103 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
-    pvp = false,
+    pvp = true,
     adventure = false,
     dungeon = false,
     raid = false,
     outdoors = true,
-    size = 40
+    size = 30
   },
   [58] = {
     name = "Shiphand: Space Madness",
-    commonName = "",
-    zones = {},
-    instance = false,
-    shiphand = false,
+    commonName = "Shiphand: Space Madness",
+    zones = { 121 },
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [60] = {
     name = "Shiphand: Deep Space Exploration",
-    commonName = "",
-    zones = {},
-    instance = false,
-    shiphand = false,
+    commonName = "Shiphand: Deep Space Exploration",
+    zones = { 141, 142, 143, 144 },
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [61] = {
     name = "Crimson Isle Pocket Cap",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Crimson Badlands",
+    zones = { 131, 287, 288, 289, 290 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
@@ -819,125 +820,127 @@ ZoneHelper.ContinentInfo = {
     dungeon = false,
     raid = false,
     outdoors = true,
-    size = 40
+    size = -1
   },
   [62] = {
     name = "Shiphand: The Gauntlet",
-    commonName = "",
-    zones = {},
-    instance = false,
-    shiphand = false,
+    commonName = "Shiphand: The Gauntlet",
+    zones = { 132, 133, 134 },
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [63] = {
     name = "Drusera World Story 1",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Exo-Lab Prime",
+    zones = { 137 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
   [64] = {
     name = "Drusera World Story 2",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Exo-Lab X39",
+    zones = { 138 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
   [65] = {
     name = "Drusera World Story 3",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "The Hidden Dark",
+    zones = { 139 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
   [67] = {
     name = "Genetic Archives",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Genetic Archives",
+    shortName = "GA",
+    zones = { 148, 149, 150 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
-    raid = false,
-    outdoors = true,
-    size = 40
+    raid = true,
+    outdoors = false,
+    size = 20
   },
   [68] = {
     name = "Drusera World Story 4",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "The Golden Fields",
+    zones = { 153 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
   [69] = {
     name = "Ultimate Protogames",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Ultimate Protogames",
+    shortName = "Protogames",
+    zones = { 160, 162, 163, 164, 165, 167, 169, 170, 173, 174, 176, 177, 180, 181, 182 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
-    dungeon = false,
+    dungeon = true,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [71] = {
     name = "Drusera World Story 5",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "The Terminus Complex",
+    zones = { 191 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
   [72] = {
     name = "Levian Bay Pocket Cap",
-    commonName = "",
-    zones = {},
-    instance = false,
+    commonName = "Star-Comm Basin",
+    zones = { 192 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
@@ -945,12 +948,12 @@ ZoneHelper.ContinentInfo = {
     dungeon = false,
     raid = false,
     outdoors = true,
-    size = 40
+    size = -1
   },
   [73] = {
     name = "Grimvault Core",
-    commonName = "",
-    zones = {},
+    commonName = "The Core",
+    zones = { 201 },
     instance = false,
     shiphand = false,
     expedition = false,
@@ -959,35 +962,35 @@ ZoneHelper.ContinentInfo = {
     dungeon = false,
     raid = false,
     outdoors = true,
-    size = 40
+    size = -1
   },
-  [74] = {
+  [74] = {  -- Not in game
     name = "",
     commonName = "Farside Adventure",
-    zones = {},
-    instance = false,
+    zones = { 202 },
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
-    adventure = false,
+    adventure = true,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [75] = {
     name = "Expedition: Abandoned Eldan Test Lab",
     commonName = "Abandoned Eldan Test Lab",
-    zones = {},
-    instance = false,
+    zones = { 203 },
+    instance = true,
     shiphand = false,
-    expedition = false,
+    expedition = true,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 3
   },
   [76] = {
     name = "",
@@ -1000,64 +1003,64 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [80] = {
     name = "",
     commonName = "OMNICore-1",
     zones = { 214, 215, 216, 217 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 1
   },
-  [82] = {
+  [82] = {  -- Not in game
     name = "",
     commonName = "Stygian Thicket",
     zones = { 252, 253 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [83] = {
     name = "",
     commonName = "Shiphand: Fragment Zero",
     zones = { 277, 278, 279, 280 },
-    instance = false,
-    shiphand = false,
+    instance = true,
+    shiphand = true,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [84] = {
     name = "Levian Bay Backup",
     commonName = "Bay of Betrayal",
     zones = { 307, 349, 350, 351, 352 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
-    adventure = false,
+    adventure = true,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [85] = {
     name = "Exo-Lab XC42",
@@ -1070,8 +1073,8 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [87] = {  -- Exile Quest
     name = "The Dust Stalker",
@@ -1084,36 +1087,36 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   },
   [90] = {
     name = "",
     commonName = "Protogames Academy",
     zones = { 470, 471, 472, 473 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
-    dungeon = false,
+    dungeon = true,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = 5
   },
   [91] = {
     name = "",
     commonName = "Initialization Core Y-83",
     zones = { 475 },
-    instance = false,
+    instance = true,
     shiphand = false,
     expedition = false,
     pvp = false,
     adventure = false,
     dungeon = false,
-    raid = false,
-    outdoors = true,
-    size = 40
+    raid = true,
+    outdoors = false,
+    size = 20
   },
   [92] = {
     name = "",
@@ -1126,8 +1129,8 @@ ZoneHelper.ContinentInfo = {
     adventure = false,
     dungeon = false,
     raid = false,
-    outdoors = true,
-    size = 40
+    outdoors = false,
+    size = -1
   }
 }
 
@@ -1557,39 +1560,131 @@ function ZoneHelper:OnLoad()
 end
 
 function ZoneHelper:IsZoneRaid(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentRaid(c)
 end
 
 function ZoneHelper:IsZoneDungeon(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentDungeon(c)
 end
 
 function ZoneHelper:IsZoneAdventure(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentAdventure(c)
 end
 
 function ZoneHelper:IsZoneShiphand(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentShiphand(c)
 end
 
--- Dungeons, Solo Dungeons, Raids, Adventures, and Shiphands
+function ZoneHelper:IsZoneExpedition(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentExpedition(c)
+end
+
+function ZoneHelper:IsZonePVP(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentPVP(c)
+end
+
+-- Dungeons, Solo Dungeons, Raids, Adventures, Shiphand, Instanced Content
 function ZoneHelper:IsZoneInstance(zoneid)
+  local c = ZoneHelper.ZoneContinent[zoneid]
+  if not c then
+    return false
+  end
+  return self:IsContinentInstance(c)
 end
 
 function ZoneHelper:IsContinentRaid(continentId)
-  return continentId == 52 or continentId == 67
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.raid
+  end
+  return false
 end
 
 function ZoneHelper:IsContinentDungeon(continentId)
-  return continentId == 15 or continentId == 13 or continentId == 14 or continentId == 48 or continentId == 90
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.dungeon
+  end
+  return false
 end
 
 function ZoneHelper:IsContinentAdventure(continentId)
-  return continentId == 27 or continentId == 84 or continentId == 26 or continentId == 16 or continentId == 17 or continentId == 23
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.adventure
+  end
+  return false
 end
 
 function ZoneHelper:IsContinentShiphand(continentId)
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.shiphand
+  end
+  return false
+end
+
+function ZoneHelper:IsContinentExpedition(continentId)
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.expedition
+  end
+  return false
+end
+
+function ZoneHelper:IsContinentPVP(continentId)
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.pvp
+  end
+  return false
 end
 
 -- Dungeons, Solo Dungeons, Raids, Adventures, and Shiphands
 function ZoneHelper:IsContinentInstance(continentId)
-
+  local z = ZoneHelper.ContinentInfo[continentId]
+  if not z then
+    return false
+  else
+    return z.instance
+  end
+  return false
 end
 
 --/eval vardump(GameLib.GetCurrentZoneMap())
