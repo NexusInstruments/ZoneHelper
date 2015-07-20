@@ -5,6 +5,9 @@ if Pkg and (Pkg.nVersion or 0) >= PkgMinor then
   return -- no upgrade needed
 end
 
+-- Set a reference to the actual package or create an empty table
+local ZoneHelper = Pkg and Pkg.tPackage or {}
+
 ZoneHelper.CodeEnumContinents = {
   -- Raids
   R_Datascape = 52,             -- Datascape
